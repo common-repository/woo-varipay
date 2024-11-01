@@ -1,0 +1,234 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCommerce Varipay Payment Gateway\n"
+"POT-Creation-Date: 2018-09-29 05:31+0100\n"
+"PO-Revision-Date: 2018-09-29 05:31+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woo-varipay.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Author of the plugin/theme
+#: includes/class-varipay.php:14
+msgid "Varipay"
+msgstr ""
+
+#: includes/class-varipay.php:15
+msgid "Varipay allows customers to checkout using a credit card"
+msgstr ""
+
+#: includes/class-varipay.php:120
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-varipay.php:121
+msgid "Enable Varipay"
+msgstr ""
+
+#: includes/class-varipay.php:123
+msgid "Enable Varipay as a payment option on the checkout page."
+msgstr ""
+
+#: includes/class-varipay.php:128
+msgid "Title"
+msgstr ""
+
+#: includes/class-varipay.php:130
+msgid ""
+"This controls the payment method title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-varipay.php:131
+msgid "Credit Card (Varipay)"
+msgstr ""
+
+#: includes/class-varipay.php:135
+msgid "Description"
+msgstr ""
+
+#: includes/class-varipay.php:137
+msgid ""
+"This controls the payment method description which the user sees during "
+"checkout."
+msgstr ""
+
+#: includes/class-varipay.php:138
+msgid "Pay with your credit card via Varipay"
+msgstr ""
+
+#: includes/class-varipay.php:142
+msgid "Test Mode"
+msgstr ""
+
+#: includes/class-varipay.php:143
+msgid "Enable Test Mode"
+msgstr ""
+
+#: includes/class-varipay.php:145
+msgid "Test mode enables you to test payments before going live."
+msgstr ""
+
+#: includes/class-varipay.php:150
+msgid "Test Merchant ID"
+msgstr ""
+
+#: includes/class-varipay.php:152
+msgid "Enter your Test Merchant ID here"
+msgstr ""
+
+#: includes/class-varipay.php:156
+msgid "Test Subscription Key"
+msgstr ""
+
+#: includes/class-varipay.php:158
+msgid "Enter your Test Subscription Key here"
+msgstr ""
+
+#: includes/class-varipay.php:162
+msgid "Live Merchant ID"
+msgstr ""
+
+#: includes/class-varipay.php:164
+msgid "Enter your Live Merchant ID here"
+msgstr ""
+
+#: includes/class-varipay.php:168
+msgid "Live Subscription Key"
+msgstr ""
+
+#: includes/class-varipay.php:170
+msgid "Enter your Live Subscription Key here."
+msgstr ""
+
+#: includes/class-varipay.php:192
+msgid "Invalid token ID. Use another payment option."
+msgstr ""
+
+#: includes/class-varipay.php:318
+#, php-format
+msgid "(TEST MODE) Varipay payment successful. Receipt ID: %s"
+msgstr ""
+
+#: includes/class-varipay.php:320
+#, php-format
+msgid "Varipay payment successful. Receipt ID: %s"
+msgstr ""
+
+#: includes/class-varipay.php:345 includes/class-varipay.php:365
+#, php-format
+msgid "(TEST MODE) Transaction failed. Error: %s"
+msgstr ""
+
+#: includes/class-varipay.php:347 includes/class-varipay.php:367
+#, php-format
+msgid "Transaction failed. Error: %s"
+msgstr ""
+
+#: includes/class-varipay.php:434
+#, php-format
+msgid "(TEST MODE) Varipay Receipt ID: %s"
+msgstr ""
+
+#: includes/class-varipay.php:436
+#, php-format
+msgid "Varipay Receipt ID: %s"
+msgstr ""
+
+#: includes/class-varipay.php:451
+msgid "(TEST MODE) Payment was declined by Varipay."
+msgstr ""
+
+#: includes/class-varipay.php:452 includes/class-varipay.php:464
+msgid "Payment failed using the saved card. Kindly use another payment option."
+msgstr ""
+
+#: includes/class-varipay.php:463
+msgid "Payment was declined by Varipay."
+msgstr ""
+
+#: includes/class-varipay.php:486
+msgid "Payment Failed"
+msgstr ""
+
+#: includes/class-varipay.php:514
+msgid "Card number is invalid"
+msgstr ""
+
+#: includes/class-varipay.php:544
+msgid "Card expiration date is invalid"
+msgstr ""
+
+#: includes/class-varipay.php:553
+msgid "Card security code is invalid (only digits are allowed)"
+msgstr ""
+
+#: includes/class-varipay.php:580
+msgid "You can only add a new card when placing an order."
+msgstr ""
+
+#: includes/class-wc-subscriptions.php:45
+msgid "This subscription has a free trial, reason for the 0 amount"
+msgstr ""
+
+#: includes/class-wc-subscriptions.php:73
+#, php-format
+msgid "(TEST MODE) Varipay transaction failed. Reason: %s"
+msgstr ""
+
+#: includes/class-wc-subscriptions.php:75
+#, php-format
+msgid "Varipay transaction failed. Reason: %s"
+msgstr ""
+
+#: includes/class-wc-subscriptions.php:134
+#, php-format
+msgid "(TEST MODE) Payment via Varipay successful. Receipt ID: %s"
+msgstr ""
+
+#: includes/class-wc-subscriptions.php:136
+#, php-format
+msgid "Payment via Varipay successful. Receipt ID: %s"
+msgstr ""
+
+#: includes/class-wc-subscriptions.php:160
+msgid ""
+"This subscription can't be renewed automatically. The customer will have to "
+"login to his account to renew his subscription"
+msgstr ""
+
+#: woo-varipay.php:55
+msgid "Settings"
+msgstr ""
+
+#: woo-varipay.php:113
+#, php-format
+msgid ""
+"Varipay is enabled, but a SSL certificate is not detected. Only test payment "
+"can be processed. Please ensure your server has a valid <a href=\"%1$s\" "
+"target=\"_blank\">SSL certificate</a>"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Varipay Payment Gateway"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://varipay.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Take credit card payments on your store using Varipay."
+msgstr ""
